@@ -69,6 +69,7 @@ function draw() {
     fill(255);
     textSize(20)
     text("Welcome to My game! Click below to start playing",width/2-200,height/3);
+    text("Press spacebar to shoot and mouse to move",width/2-200,height/3+20);
     FirstLevelButton.show();
     SecondLevelButton.show();
     ThirdLevelButton.show();
